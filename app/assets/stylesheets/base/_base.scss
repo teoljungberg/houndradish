@@ -13,3 +13,13 @@
 @import "lists";
 @import "tables";
 @import "typography";
+
+a {
+  .b {
+    .c {
+      .d {
+        color: blue;
+      }
+    }
+  }
+}
