@@ -18,7 +18,9 @@ a {
   .b {
     .c {
       .d {
-        color: blue;
+        .e {
+          color: blue;
+        }
       }
     }
   }
