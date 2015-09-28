@@ -6,3 +6,13 @@
 @import "neat";
 @import "base/base";
 @import "refills/flashes";
+
+a {
+  .b {
+    .c {
+      .d {
+        color: blue;
+      }
+    }
+  }
+}
