@@ -1,0 +1,19 @@
+AllCops:
+  Include:
+  - "**/*.rake"
+  - "**/Gemfile"
+  - "**/Rakefile"
+  Exclude:
+  - "vendor/**/*"
+  - "db/**/*"
+  RunRailsCops: true
+  DisplayCopNames: false
+  StyleGuideCopsOnly: false
+Style/StringLiterals:
+  Description: Checks if uses of quotes match the configured preference.
+  StyleGuide: https://github.com/bbatsov/ruby-style-guide#consistent-string-literals
+  Enabled: true
+  EnforcedStyle: double_quotes
+  SupportedStyles:
+  - single_quotes
+  - double_quotes
