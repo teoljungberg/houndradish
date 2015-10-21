@@ -10,8 +10,7 @@ javascript:
   enabled: true
   # ignore_file: .javascript_ignore
 ruby:
-  # config_file: .ruby-style.yml
-  enabled: true
+  config_file: .ruby-style.yml
 scss:
   # config_file: .scss-style.yml
   enabled: true
