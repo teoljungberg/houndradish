@@ -17,3 +17,4 @@ scss:
   enabled: true
 eslint:
   enabled: true
+  config_file: config/.eslintrc
