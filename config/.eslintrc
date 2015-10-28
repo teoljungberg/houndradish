@@ -20,7 +20,11 @@
             1,
             80,
             4
-        ]
+        ],
+        "arrow-parens": [
+            2,
+            "always"
+         ]
     },
     "env": {
         "es6": true,

@@ -19,3 +19,5 @@ class Cat extends Animal {
     console.log(this.name + " loves to chase cards and bite their tires like a dog, but isn't one.");
   }
 }
+
+a(foo => { if (true) {}; });
