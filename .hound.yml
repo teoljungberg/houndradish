@@ -7,8 +7,10 @@ haml:
   enabled: true
 javascript:
   # config_file: .javascript-style.json
+  enabled: false
+jshint:
+  config_file: .jshint.json
   enabled: true
-  # ignore_file: .javascript_ignore
 ruby:
   # config_file: .ruby-style.yml
   enabled: true

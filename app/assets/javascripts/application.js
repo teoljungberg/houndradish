@@ -13,3 +13,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+const foo = 2;
+let baz = 1;
+
+var x = () => 1 + 1;
+var z = () => { foo + baz } ;
+
+"double quotes so hound might yell"
