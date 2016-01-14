@@ -7,7 +7,7 @@ haml:
   enabled: true
 javascript:
   # config_file: .javascript-style.json
-  enabled: true
+  enabled: false
   # ignore_file: .javascript_ignore
 ruby:
   # config_file: .ruby-style.yml
@@ -15,3 +15,6 @@ ruby:
 scss:
   # config_file: .scss-style.yml
   enabled: true
+jscs:
+  enabled: true
+  config_file: .jscsrc
