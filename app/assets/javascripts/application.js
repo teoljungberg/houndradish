@@ -13,3 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+var foo = 1;
+"double quotes so hound might yell"
