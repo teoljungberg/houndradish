@@ -15,3 +15,6 @@ ruby:
 scss:
   # config_file: .scss-style.yml
   enabled: true
+mdast:
+  enabled: true
+  config_file: .mdastrc
