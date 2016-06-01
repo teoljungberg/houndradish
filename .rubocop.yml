@@ -1,0 +1,37 @@
+# See .rubocop/README.md, this is file only includes our overrides
+
+inherit_from:
+  - .rubocop/default.yml
+
+AllCops:
+  TargetRubyVersion: 2.1
+  Exclude:
+  - "vendor/**/*"
+  - "**/db/**/*"
+  - "**/schema.rb"
+
+Rails:
+  Enabled: true
+
+Metrics/LineLength:
+  Exclude:
+  - "**/spec/**/*"
+
+Metrics/MethodLength:
+  CountComments: false
+  Exclude:
+  - "**/spec/**/*"
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/BlockDelimiters:
+  StyleGuide: https://github.com/bbatsov/ruby-style-guide#single-line-blocks
+  EnforcedStyle: line_count_based
+  Enabled: true
+
+Style/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
+Style/ExtraSpacing:
+  Enabled: false

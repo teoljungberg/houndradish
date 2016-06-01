@@ -1,0 +1,3 @@
+engines/**/vendor/**
+vendor/**
+**/assets/javascripts/**/templates/*.js
